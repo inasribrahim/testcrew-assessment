@@ -44,3 +44,35 @@ Testcrew framework are implementing the **Customize Framework ** design pattern 
 * 2- Generate historical allure report
 * 3- U can change versions of browsers in docker containers and make browser compatabilty
 
+## **TestCases Covered**
+* 1- kuwait
+  * Validate that customer can choose your plan **classic** & **light** & **premium** package in arabic and english
+    * 1- validate that the package type
+    * 2- validate that the package fees
+    * 3- validate that the curracny code
+    * 4- validate that the time period
+* 2- bahrain
+   * Validate that customer can choose your plan **classic** & **light** & **premium** package in arabic and english
+      * 1- validate that the package type
+      * 2- validate that the package fees
+      * 3- validate that the curracny code
+      * 4- validate that the time period
+* 3- saudi_arabia
+  * Validate that customer can choose your plan **classic** & **light** & **premium** package in arabic and english
+     * 1- validate that the package type
+     * 2- validate that the package fees
+     * 3- validate that the curracny code
+     * 4- validate that the time period
+    
+```xml
+   <test verbose="1" preserve-order="true" name="kuwait">
+         <parameter name="browserName" value="edge"/>
+         <parameter name="countryName" value="kuwait"/>
+         <parameter name="linuxOrWindows" value="windows"/>
+   <classes>
+      <class name="com.stc.test_crew.HooksHandler"/>
+      <class name="com.stc.test_crew.tests.kuwait.StcKuwaitPackageTest">
+   </class>
+   </classes>
+   </test>
+```
