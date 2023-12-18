@@ -1,0 +1,8 @@
+[
+  {"language": "English", "packageType": "LITE", "fees": "15", "currency": "SAR", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "لايت", "fees": "15", "currency": "ريال سعودي", "timePeriod": "شهر"},
+  {"language": "English", "packageType": "CLASSIC", "fees": "25", "currency": "SAR", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "الأساسية", "fees": "25", "currency": "ريال سعودي", "timePeriod": "شهر"},
+  {"language": "English", "packageType": "PREMIUM", "fees": "60", "currency": "SAR", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "بريميوم", "fees": "60", "currency": "ريال سعودي", "timePeriod": "شهر"}
+]

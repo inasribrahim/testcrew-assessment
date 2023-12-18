@@ -1,0 +1,8 @@
+[
+  {"language": "English", "packageType": "LITE", "fees": "2", "currency": "BHD", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "لايت", "fees": "2", "currency": "دينار بحريني", "timePeriod": "شهر"},
+  {"language": "English", "packageType": "CLASSIC", "fees": "3", "currency": "BHD", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "الأساسية", "fees": "3", "currency": "دينار بحريني", "timePeriod": "شهر"},
+  {"language": "English", "packageType": "PREMIUM", "fees": "6", "currency": "BHD", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "بريميوم", "fees": "6", "currency": "دينار بحريني", "timePeriod": "شهر"}
+]

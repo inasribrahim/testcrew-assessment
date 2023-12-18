@@ -1,0 +1,8 @@
+[
+  {"language": "English", "packageType": "LITE", "fees": "1.2", "currency": "KWD", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "لايت", "fees": "1.2", "currency": "دينار كويتي", "timePeriod": "شهر"},
+  {"language": "English", "packageType": "CLASSIC", "fees": "2.5", "currency": "KWD", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "الأساسية", "fees": "2.5", "currency": "دينار كويتي", "timePeriod": "شهر"},
+  {"language": "English", "packageType": "PREMIUM", "fees": "4.8", "currency": "KWD", "timePeriod": "month"},
+  {"language": "العربية", "packageType": "بريميوم", "fees": "4.8", "currency": "دينار كويتي", "timePeriod": "شهر"}
+]

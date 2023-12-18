@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+
+    <test verbose="1" preserve-order="true" name="saudiarabia">
+        <parameter name="browserName" value="edge"/>
+        <parameter name="countryName" value="saudiarabia"/>
+        <parameter name="linuxOrWindows" value="windows"/>
+        <classes>
+            <class name="com.stc.test_crew.HooksHandler"/>
+            <class name="com.stc.test_crew.tests.saudi_arabia.StcSaudiPackageTest">
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="1" preserve-order="true" name="bahrain">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="countryName" value="bahrain"/>
+    <parameter name="linuxOrWindows" value="windows"/>
+    <classes>
+        <class name="com.stc.test_crew.HooksHandler"/>
+        <class name="com.stc.test_crew.tests.bahrain.StcBahrainPackageTest">
+        </class>
+    </classes>
+    </test>
+
+    <test verbose="1" preserve-order="true" name="kuwait">
+        <parameter name="browserName" value="edge"/>
+        <parameter name="countryName" value="kuwait"/>
+        <parameter name="linuxOrWindows" value="windows"/>
+        <classes>
+            <class name="com.stc.test_crew.HooksHandler"/>
+            <class name="com.stc.test_crew.tests.kuwait.StcKuwaitPackageTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
