@@ -28,7 +28,7 @@ public class ChooseYourPlanSection extends BaseScreen {
             String[] parts = waitUntilElementUntilIsVisible(liteCurrency).getText().split(" ")  ;
             return parts[1] + " " +parts[2].split("/")[0];
         }
-        else return waitUntilElementUntilIsVisible(liteCurrency).getText().split("\\W+")[1];
+        else return waitUntilElementUntilIsVisible(liteCurrency).getText().split("/")[0].split(" ")[1];
     }
 
     public String getClassicCurrency(String language) {
@@ -36,7 +36,7 @@ public class ChooseYourPlanSection extends BaseScreen {
             String[] parts = waitUntilElementUntilIsVisible(classicCurrency).getText().split(" ");
             return parts[1] + " " +parts[2].split("/")[0];
         }
-        else return waitUntilElementUntilIsVisible(classicCurrency).getText().split("\\W+")[1];
+        else return waitUntilElementUntilIsVisible(classicCurrency).getText().split("/")[0].split(" ")[1];
     }
 
     public String getPremiumCurrency(String language) {
@@ -44,7 +44,7 @@ public class ChooseYourPlanSection extends BaseScreen {
             String[] parts = waitUntilElementUntilIsVisible(premiumCurrency).getText().split(" ");
             return parts[1] + " " +parts[2].split("/")[0];
         }
-        return waitUntilElementUntilIsVisible(premiumCurrency).getText().split("\\W+")[1];
+        return waitUntilElementUntilIsVisible(premiumCurrency).getText().split("/")[0].split(" ")[1];
     }
 
     public String getLiteTimePeriod (String language) {
@@ -64,17 +64,17 @@ public class ChooseYourPlanSection extends BaseScreen {
 
     public String getLiteFees(String language) {
         if(language.equals("العربية")) return waitUntilElementUntilIsVisible(liteCurrency).getText().split("\\s+")[0];
-        else return waitUntilElementUntilIsVisible(liteCurrency).getText().split("/")[1].split(" ")[0];
+        else return waitUntilElementUntilIsVisible(liteCurrency).getText().split("/")[0].split(" ")[0];
     }
 
     public String getClassicFees(String language) {
         if(language.equals("العربية")) return waitUntilElementUntilIsVisible(classicCurrency).getText().split("\\s+")[0];
-        else return waitUntilElementUntilIsVisible(classicCurrency).getText().split("/")[1].split(" ")[0];
+        else return waitUntilElementUntilIsVisible(classicCurrency).getText().split("/")[0].split(" ")[0];
     }
 
     public String getPremiumFees(String language) {
         if(language.equals("العربية")) return waitUntilElementUntilIsVisible(premiumCurrency).getText().split("\\s+")[0];
-        return waitUntilElementUntilIsVisible(premiumCurrency).getText().split("/")[1].split(" ")[0];
+        return waitUntilElementUntilIsVisible(premiumCurrency).getText().split("/")[0].split(" ")[0];
     }
 
     public String getPackageType(String pacakageType) {
