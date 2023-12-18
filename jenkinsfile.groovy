@@ -5,15 +5,15 @@ pipeline{
     stages{
         stage("Purge Docker date"){
             steps{
-               // bat("docker system prune -a --volumes -f")
+                bat("docker system prune -a --volumes -f")
                 bat(" echo delete all image")
             }
         }
 
         stage("Start with container "){
             steps{
-              //  bat("docker compose up -d --no-color --wait")
-              bat(" echo run docker compose file ")
+                bat("docker compose up -d --no-color --wait")
+               bat(" echo run docker compose file ")
 
             }
         }
